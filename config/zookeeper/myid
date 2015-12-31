@@ -1,1 +1,1 @@
-replace this text with the cluster-unique zookeeper's instance id (1-255)
+{{ 2000 |random(1001) }}
