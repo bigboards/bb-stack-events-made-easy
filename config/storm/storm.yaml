@@ -1,7 +1,7 @@
 storm.zookeeper.servers:
-  - {{hex-name}}-n1
-  - {{hex-name}}-n2
-  - {{hex-name}}-n3
+  - {{hex.name}}-n1
+  - {{hex.name}}-n2
+  - {{hex.name}}-n3
 
 storm.local.dir: "/data/storm"
 
