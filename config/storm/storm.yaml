@@ -1,0 +1,14 @@
+storm.zookeeper.servers:
+  - {{hex-name}}-n1
+  - {{hex-name}}-n2
+  - {{hex-name}}-n3
+
+storm.local.dir: "/data/storm"
+
+nimbus.host: {{hex.name}}.hex.bigboards.io
+
+supervisor.slots.ports:
+    - 6700
+    - 6701
+    - 6702
+    - 6703
